@@ -634,6 +634,15 @@ nav {
     .gallery-item { height: auto; min-height: auto; border-radius: 12px; }
     .gallery-item img { height: auto; object-fit: contain; background: #fff; }
 
+    /* Card Grid Mobile Fix */
+    .card-grid { 
+        grid-template-columns: 1fr !important; /* Force single column on mobile */
+        gap: 20px !important; 
+        margin-top: 30px !important;
+    }
+    .feature-card { padding: 25px 20px !important; text-align: center; }
+    .card-icon { margin: 0 auto 20px !important; }
+
     /* Success Card Mobile Fix */
     #formSuccess { padding: 30px 20px !important; }
     #formSuccess h3 { font-size: 1.4rem !important; }
